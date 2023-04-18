@@ -4,7 +4,7 @@
 
 语言:Swift
 
-环境:Xcode Version 14.3 (14E222b)/Simulator Iphone 14 Pro
+环境:Xcode Version 14.3 (14E222b)/Simulator iPhone 14 Pro/实机 iPhone 7 Plus
 
 API:和风天气
 
@@ -20,7 +20,8 @@ API:和风天气
 2. 使用时请使用自己的Key替代
 3. 项目使用和风天气免费API，如果使用其他API替换或许不能正常运行/显示
 4. 项目运行后Simulator的定位为San Francisco，需要连接实机调试才能获取本地位置并获取天气/AQI
-5. ***本项目使用于2023年XDU B测 雾霾探测系统设计，若直接使用后果自负***
+5. 最新版本的Xcode的Simulator默认iOS版本较高，版本控制要求也默认为Simulator的版本。一般实机没有最高版本，需要去设置运行所需的最低版本以便实机运行
+6. ***本项目使用于2023年XDU B测 雾霾探测系统设计，任何用途造成后果自负***
 
 ## 特别感谢
 
