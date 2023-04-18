@@ -22,6 +22,7 @@ OpenAI/ChatGPT
 
 ## 链接
 > https://dev.qweather.com
+
 > https://openai.com/blog/chatgpt
 
 
