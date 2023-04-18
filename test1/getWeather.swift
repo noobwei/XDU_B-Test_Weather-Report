@@ -48,7 +48,7 @@ func getWeather()->(String,String,String,String) {
 //        print(formattedLatitude)
 //        print(formattedLongitude)
     }
-    if let url = URL(string: "https://devapi.qweather.com/v7/weather/3d?location=\(formattedLongitude),\(formattedLatitude)&key=9a374aa0f2784709836fd095ced65fd6") {
+    if let url = URL(string: "https://devapi.qweather.com/v7/weather/3d?location=\(formattedLongitude),\(formattedLatitude)&key=YOURKEY") {
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let error = error {
                 print("Error: \(error)")
@@ -77,7 +77,7 @@ func getWeather()->(String,String,String,String) {
         task.resume()
         
     }
-    if let url = URL(string: "https://devapi.qweather.com/v7/air/now?location=101110101&key=9a374aa0f2784709836fd095ced65fd6") {
+    if let url = URL(string: "https://devapi.qweather.com/v7/air/now?location=\(formattedLongitude),\(formattedLatitude)&key=YOURKEY") {
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let error = error {
                 print("Error: \(error)")
