@@ -14,7 +14,7 @@ API:和风天气
 
 总而言之是一个十分简单的应用
 
-<img src="https://user-images.githubusercontent.com/70512842/233266249-e4700cc8-974d-4054-ad78-7c62b28c368a.PNG" width=50%)
+<img src="https://user-images.githubusercontent.com/70512842/233266249-e4700cc8-974d-4054-ad78-7c62b28c368a.PNG" width=50%>
 
 选择一个AQI比较有特色的日期作为实现效果的展示
 
